@@ -9,7 +9,7 @@
 public with sharing class previewDownloadController 
 {
     
-        @AuraEnabled(cachebale=true)
+        @AuraEnabled(cacheable=true)
         public static Map<ID, String> getFilesByRecordId(string recordId)
         {
             // Get record file IDs        
